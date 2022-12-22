@@ -90,6 +90,7 @@ int main(){
     int length = ans.size();
     for (int i = 0 ; i < length ; i++){
         output << ans[i].from << " " << ans[i].to << " " << ans[i].weight << endl;
+        cout  << ans[i].from << " " << ans[i].to << " " << ans[i].weight << endl;
     }
     return 0;
 }
